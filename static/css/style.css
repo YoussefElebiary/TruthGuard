@@ -79,6 +79,12 @@
     justify-content: center;
 }
 
+.cust-img {
+    width: 68px;
+    height: 79px;
+    margin-top: 0.4rem;
+}
+
 @media (max-width: 768px) {
     #name {
         font-size: 3rem;
@@ -100,5 +106,10 @@
     .col-auto, .col-4 {
         width: 100%;
         margin-bottom: 10px;
+    }
+
+    .cust-img {
+        width: 36px;
+        height: 44px;
     }
 }
