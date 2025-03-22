@@ -16,9 +16,9 @@ ___
 - [License](#license)
 
 ## Description
-TruthGuard is a web application that uses machine learning algorithms (XGBoost and LightGBM) to detect fake news.
-Users can input text and select the desired model (standard or lite) and the prediction of the model will be displayed.
-For more details on the machine learning process, [click here](https://www.kaggle.com/code/youssefelebiary/truthguard).
+TruthGuard is a web application that uses machine learning algorithms (XGBoost and LightGBM) to detect fake news. <br>
+Users can input text and select the desired model (standard or lite) and the prediction of the model will be displayed. <br>
+For more details on the machine learning process, [click here](https://www.kaggle.com/code/youssefelebiary/truthguard). <br>
 To access the preprocessed version of the dataset [click here](https://www.kaggle.com/datasets/youssefelebiary/fake-and-real-news-preprocessed).<br><br>
 
 ## Features
