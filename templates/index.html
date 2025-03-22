@@ -1,0 +1,84 @@
+<!--
+About:      This is the site for TruthGuard
+Author:     Made entirely by Youssef Elebiary
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TruthGuard</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="This is the official site for TruthGuard, a news fact checker" />
+        <!--    Bootstrap CSS File    -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet" />
+        <!--    Custom CSS File    -->
+        <link href="../static/css/style.css" rel="stylesheet" />
+        <!--    Icon    -->
+        <link rel="icon" type="image/png" sizes="64x64" href="../static/images/icon.png">
+    </head>
+    <body class="bg-dark mb-0">
+        <div class="container-fluid no-gutters">
+            <!--    Header    -->
+            <div class="row mt-1 mt-md-10">
+                <div class="col-12 col-6 mx-auto text-center">
+                    <h1 id="name">TruthGuard</h1>
+                </div>
+            </div>
+            <!--    Status    -->
+            <div class="row mt-0">
+                <div class="col-12 col-6 mx-auto text-center">
+                    <div class="d-flex justify-content-center align-content-center">
+                        <span class="mb-0 text-white fs-2">Status </span>
+                        <span class="mb-0 ms-2" id="status"></span>
+                    </div>
+                </div>
+            </div>
+            <!--    Textbox    -->
+            <div class="row mt-3" style="height: 15rem;">
+                <div class="col-12 col-lg-8 mx-auto text-center">
+                    <textarea id="cust-text" placeholder="Enter the title and the article..."></textarea>
+                </div>
+            </div>
+            <!--    Selector & Submit    -->
+            <div class="row mt-3">
+                <div class="col-lg-1 col-12 mt-lg-2 mb-2 offset-lg-2 text-start">
+                    <!--    Model Selector    -->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="modelDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Model
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="modelDropdown">
+                            <li><a class="dropdown-item" href="#" data-value="standard">Standard</a></li>
+                            <li><a class="dropdown-item" href="#" data-value="lite">Lite</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--    Check Button    -->
+                <div class="col-4 offset-lg-1 text-center">
+                    <div class="btn btn-primary w-100" id="cust-btn">Check</div>
+                </div>
+            </div>
+            <!--    Disclaimer    -->
+            <div class="row mt-3 mb-0">
+                <div class="col-12">
+                    <p class="disclaimer" style="text-justify: distribute;">
+                        The AI model used in this application has been trained on historical data and may not always provide accurate results. <br>
+                        Users are advised to verify information independently before making any decisions. <br>
+                    </p>
+                    <p class="text-white mt-3 mb-0 text-center">
+                        Developed by <strong>Youssef Elebiary</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" id="selected-model" value="">
+        <!--================================================================================================-->
+        <!--    Bootstrap JS File    -->
+        <script src="../static/js/bootstrap.bundle.min.js"></script>
+        <!--    Dropdown JS Script    -->
+        <script src="../static/js/dropdown.js"></script>
+        <!--    Back-end JS File    -->
+        <script src="../static/js/script.js"></script>
+    </body>
+</html>
